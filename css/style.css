@@ -30,7 +30,7 @@ footer{color:white !important; background-color: #253246; padding:70px;}
 footer .nav-item{padding: 4px;}
 footer .nav-link{color: white !important;}
 footer .nav-link:hover{border-bottom: 1px solid white;}
-
+footer i:hover{color: #875648;}
 
 
 @media (max-width: 575.98px) {
