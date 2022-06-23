@@ -26,16 +26,16 @@ a{text-decoration: none; color: inherit;}
 .jumbo{padding: 10%;}
 .section2{height: 50vh; background-image: url(../img/brandon-griggs-wR11KBaB86U-unsplash.jpg);background-size: cover; background-position: center;}
 
-footer{color:white !important; background-color: #253246; padding:70px;}
+footer{position: relative; color:white !important; background-color: #253246; padding:70px; z-index: 200;}
 footer .nav-item{padding: 4px;}
 footer .nav-link{color: white !important;}
 footer .nav-link:hover{border-bottom: 1px solid white;}
 footer i:hover{color: #875648;}
-.fa:hover{color: #875648;}
+.fa :hover{color: #875648;}
 
-.whatsapp {position:fixed; width:60px; height:60px; bottom:30px; right:30px; background-color:#25d366; color:#FFF; border-radius:50px; text-align:center; font-size:30px; z-index:100;}
-.whatsapp:hover{color: #875648;}
-.whatsapp-icon { margin-top:15px;}
+.whatsapp {position:fixed; width:60px; height:60px; bottom:20px; right:20px; background-color:#25d366; color:#FFF; border-radius:50px; text-align:center; font-size:30px; z-index:100;}
+.whatsapp:hover{background-color:#FFF; color:#25d366;}
+.whatsapp-icon {margin-top:15px;}
 
 
 
