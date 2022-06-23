@@ -54,3 +54,6 @@ footer{padding: 30px;}
 .carousel-caption h5{font-size: 2.5rem;}
 }
 
+@media (max-width: 991.98px) { 
+.navbar-collapse{background-color: rgba(255, 255, 255, .9);}
+}
