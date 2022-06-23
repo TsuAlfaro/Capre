@@ -31,7 +31,11 @@ footer .nav-item{padding: 4px;}
 footer .nav-link{color: white !important;}
 footer .nav-link:hover{border-bottom: 1px solid white;}
 footer i:hover{color: #875648;}
-.fa-brands:hover{color: #875648;}
+.fa:hover{color: #875648;}
+
+.whatsapp {position:fixed; width:60px; height:60px; bottom:30px; right:30px; background-color:#25d366; color:#FFF; border-radius:50px; text-align:center; font-size:30px; z-index:100;}
+.whatsapp-icon { margin-top:15px;}
+
 
 
 @media (max-width: 575.98px) {
