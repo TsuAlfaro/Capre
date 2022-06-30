@@ -4,7 +4,7 @@ body{box-sizing: border-box;font-family: 'Lato', sans-serif;}
 
 a{text-decoration: none; color: inherit;}
 p{line-height: 1.5;}
-.navbar{position: relative; z-index: 5;}
+.navbar{position: relative; z-index: 5; }
 .bg-capre{background-color: #253246;}    
 .navbar-brand{padding: .3125rem;}
 .nav-item{padding: 15px; !important; box-sizing: border-box;}
@@ -16,11 +16,11 @@ p{line-height: 1.5;}
 .navbar-light .nav-link{color: #212529!important;}
 .navbar-light .nav-link:hover{border-bottom: 1px solid black;}
 
-.navbar-light .dropdown-menu{background-color: rgba(255, 255, 255, .5);text-align: center; border: 0px; margin: 0px;}
+.navbar-light .dropdown-menu{background-color: rgba(255, 255, 255, .5);text-align: center; border: 0px; margin: 0px; height: inherit; padding: 0;}
 .navbar-dark .dropdown-menu{background-color: none!important; text-align: center; color: #fff;}
 
 .m100{position: relative; top: -100px;}
-.slider{height: 80vh; overflow: hidden; z-index: -2;}
+.slider{height: 80vh; overflow: hidden; z-index: 2;}
 .img-slide{width: 100%; height: 80vh; background-image:url(../img/01.jpg); background-size: cover; background-position: center;}
 .img-slide2{width: 100%; height: 80vh; background-image:url(../img/02.jpg); background-size: cover; background-position:center;}
 .img-slide3{width: 100%; height: 80vh; background-image:url(../img/03.jpg); background-size: cover; background-position: center;}
@@ -53,14 +53,14 @@ footer i:hover{color: #875648;}
 .img-nos{position: absolute; right: 10%; height: 70vh; width: 35%; top: 20%; background-image: url(../img/eduardo-alvarado-4KRJEfaqY-A-unsplash.jpg); background-position: center; background-size: cover;}
 .text-nos2{padding: 15% 20% 10% 10%; color: #fff;}
 .img-nos2{background-image: url(../img/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 60vh;}
-
-.under{background-color: #253246; background-image: url(..//img/leohoho-dQyWiznMtho-unsplash.jpg); background-position: center; height: 100vh; padding: 15% 10%; text-align: center; color: #fff; font-size: 1.25rem; background-blend-mode:multiply;}
+.inmo{background-image: url(../img/leohoho-dQyWiznMtho-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
+.compra{padding: 25% 10%; background-color: #fff;}
+.img-jumbo{background-image: url(../img/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
 
 
 @media (max-width: 850px) { 
 .img-nos{position: absolute; right: 5%; height: 50vh; width: 40%; top: 15%;}
 .img-nos2{height: 40vh;}
-
 }
 
 @media (max-width: 575.98px) {
@@ -76,15 +76,15 @@ footer i:hover{color: #875648;}
 .jumbo{padding: 20%;}
 footer{padding: 30px;}
 .img-nos{position: relative; width: 100%; right: 0;}
-.under img{width: 70%;}
-.under{font-size: 1.1rem; padding: 25% 10%;}
+
+
 }
 
 @media (max-width: 767.8px) {
 .section2{height: 40vh;}
 footer{padding: 30px;}
 .carousel-caption h5{font-size: 2.5rem;}
-    .under{font-size: 1.1rem; padding: 25% 10%;}
+
 }
 
 
