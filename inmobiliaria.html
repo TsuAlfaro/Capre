@@ -26,7 +26,7 @@
     <!-- Navbar -->
     <div class="container-fluid p-0">
         <div class="row g-0">
-            <nav class="navbar navbar-expand-lg navbar-light text-center py-2">
+            <nav class="navbar navbar-expand-lg navbar-light text-center p-2">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="index.html"><img src="img/Logos_03.png" alt="LogoCapre" height="60px"></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +34,9 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav mx-auto">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
                       <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
                       </li>
@@ -58,80 +61,58 @@
               </nav>
         </div>
     </div>
-    <!-- SLIDER -->  
-    <div class="container-fluid slider p-0 m100">
-        <div class="row g-0">
-            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active h-100 img-slide">
-                    <div class="d-block img-slide"></div>
-                  <div class="carousel-caption d-md-block">
-                    <h5>Inversiones inteligentes</h5>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-block img-slide2"></div>
-                  <div class="carousel-caption d-md-block">
-                    <h5>Second slide label</h5>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="d-block img-slide3"></div>
-                  <div class="carousel-caption d-md-block">
-                    <h5>Third slide label</h5>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
-            </div>
-        </div>
-    </div>
-    <!-- SECTION 1 -->
-    <div class="container m100">
-        <div class="row g-0">
-            <div class="col-sm-12 col-md-6 bg-light intro">
-                <p class="">Brindamos la seguridad de que se cumplan todos los aspectos legales y comerciales.</p>
-                <p class="">Creamos estrategias de mejora continua para la satisfacción de cada uno de nuestros valiosos clientes.</p>
-            </div>
-            <div class="col-sm-12 col-md-6 "></div>
-         <div class="row g-0">
-            <div class="col-sm-12 col-md-6 introF1"></div>
-            <div class="col-sm-12 col-md-6 introF2"></div>
-        </div>
-        </div>
-    </div>      
     
-    <!-- JUMBO -->
-    <div class="container jumbo text-center m100">
+    <!-- SECTION 1 -->
+    <div class="container">
         <div class="row g-0">
-            <div class="col-sm-12 col-md-12">
-               <p class="h2 m-0">Esquemas de inversiones inteligentes</p>
+            <div class="col-12 py-5 text-center">
+                <h1 class="display-3 py-5">INMOBILIARIA</h1>
             </div>
+            <div class="col-12 inmo" id="compra"></div>
         </div>
     </div>
     
     <!-- SECTION 2 -->
-    <div class="container mb-sm-4 m100">
-        <div class="row g-0">
-            <div class="col-12 section2"></div>
+    <div class="container">
+        <div class="row g-0 d-flex bg-light">
+            <div class="col-sm-12 col-md-6 compra" >
+                <h1 class="display-4 pt-5">Compra</h1>
+                <p class="pb-5">CAPRé cuenta con la mejor alternativa de acuerdo a sus necesidades y expectativas para la adquisición de su bien inmueble, asesorándolo, guiándolo y brindándole un respaldo profesional para su satisfacción total.</p>
+                <img src="img/nodes.png" alt="line" height="150px" class="my-5">
+                <h1 class="display-4" id="venta">Venta</h1>
+                <p class="pt-5">CAPRé le ofrece las mejores estrategias de venta, respaldo profesional, asesoría legal, fiscal y financiera, estudios de mercado, seguridad; llevando a cabo procesos que aseguren la venta optima de su bien inmueble en el menor tiempo y al mejor costo.</p>
+                <p class="">Llevando su bien inmueble al mercado correcto para encontrar al comprador indicado.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 bg-light align-self-center bg-light">
+                <img src="img/joel-filipe-RFDP7_80v5A-unsplash.jpg" alt="" width="100%">
+            </div>
         </div>
-    </div>    
-    
+    </div>
+    <!-- JUMBO -->
+    <div class="container-fluid py-5">
+        <div class="row g-0">
+            <div class="col-12 img-jumbo"></div>
+        </div>
+    </div>
+    <!-- SECTION 3 -->
+    <div class="container" id="renta">
+        <div class="row g-0 d-flex bg-light">
+           <div class="col-sm-12 col-md-6 bg-light align-self-center bg-light order-md-0 order-lg-0 order-last">
+                <img src="img/cytonn-photography-TVyhDpvL8MY-unsplash.jpg" alt="" width="100%">
+            </div>
+            <div class="col-sm-12 col-md-6 compra order-md-1 order-lg-1 order-sm-first">
+                <h1 class="display-4 pt-5">Renta</h1>
+                <p class="fs-5 m-0">¿Busca poner su casa en Renta?</p>
+                <p class="pb-5">En CAPRé Grupo Inmobiliario ofrecemos las mejores estrategias, respaldo profesional, asesoría legal, fiscal y financiera, seguridad y la certeza de que su Bien Inmueble estará con el arrendatario correcto para cuidar de su patrimonio.</p>
+                <strong>¿Busca rentar una casa?</strong>
+                <p class="">CAPRé Grupo Inmobiliario tiene la mejor alternativa de acuerdo a sus necesidades y expectativas para el arrendamiento del Bien Inmueble que se ajuste a su requerimiento.</p>
+                <img src="img/nodes.png" alt="line" height="150px" class="my-5">
+                <h1 class="display-4" id="hipotecas">Hipotecas</h1>
+                <p class="pt-5">Conoce como puedes mejorar tu Hipoteca actual o que beneﬁcios puedes obtener de la misma.</p>
+            </div>
+        </div>
+    </div>
     <!-- FOOTER -->
-    <div class="b-example-divider"></div>
-
 <div class="container-fluid g-0">
   <footer class="row g-0 border-top d-flex justify-content-center">
      <div class="col-md-4 col-sm-12">
@@ -139,7 +120,6 @@
         <img src="img/Logos_02.png" alt="logo_Capre" height="70px">
       </a>
     </div>
-
     <div class="col-md-4 col-sm-12">
           <ul class="nav flex-column">
             <li class="nav-item mb-1"><a href="nosotros.html" class="nav-link p-0">Nosotros</a></li>
@@ -148,7 +128,6 @@
             <li class="nav-item mb-1"><a href="desarrollos.html" class="nav-link p-0">Desarrollos</a></li>
             <li class="nav-item mb-1"><a href="inversiones.html" class="nav-link p-0">Inversiones</a></li>
             <li class="nav-item mb-1"><a href="contacto.html" class="nav-link p-0">Contacto</a></li>
-
           </ul>
         </div>
     <div class="col-md-4 col-sm-12 mt-auto">
