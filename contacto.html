@@ -62,64 +62,60 @@
         </div>
     </div>
     
+ 
     <!-- SECTION 1 -->
-    <div class="container">
-        <div class="row g-0 pt-5">
-           <div class="col-sm-12 col-md-7 inmo" id="compra"></div>
-            <div class="col-sm-12 col-md-5">
-                <h1 class="display-3 text-center pt-5 line-h">Desarrollos</h1>
-            </div>
-        </div>
-    </div>
-    
-    <!-- SECTION 2 -->
-    <div class="container">
+    <div class="container my-5 py-5">
         <div class="row g-0">
-            <div class="col-sm-12 col-md-3 iconos">
-                <i class="fa-solid fa-money-bill-trend-up fa-4x pb-4"></i>
-                <p class="">Vive de tus rentas</p>
-            </div>
-            <div class="col-sm-12 col-md-3 iconos">
-                <i class="fa-solid fa-building-user fa-4x pb-4"></i>
-                <p class="">Incrementa tu patrimonio</p>
-            </div>
-            <div class="col-sm-12 col-md-3 iconos">
-                <i class="fa-solid fa-building-shield fa-4x pb-4"></i>
-                <p class="">Aprovecha la Plusvalía + CAP Rate</p>
-            </div>
-            <div class="col-sm-12 col-md-3 iconos">
-                <i class="fa-solid fa-sign-hanging fa-4x pb-4"></i>
-                <p class="">Compra en Preventa hoy para monetizar</p>
-            </div>
+          <h1 class="display-3 text-center mb-5">Escríbenos</h1>
+            <div class="col-sm-12 col-md-7 p-3 mx-auto">
+            <form class="needs-validation" novalidate action="">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="validationDefault01" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="validationDefault01" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Favor de ingresar su nombre
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <label for="lastName" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Favor de ingresar su apellido
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <label for="email" class="form-label">Correo</label>
+                  <input type="email" class="form-control" id="email" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Favor de ingresar un correo válido
+                  </div>
+                </div>
+
+                <div class="col-12 pb-5">
+                  <label for="validationTextarea" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="validationTextarea" placeholder="" rows="4" required></textarea>
+                    <div class="invalid-feedback">
+                      Favor de ingresar su mensaje
+                  </div>
+                </div>
+               </div>
+
+                <button class="btn btn-primary bg-capre border-0" type="submit" >Enviar</button>
+            </form>
+      </div>
         </div>
     </div>
-    <!-- JUMBO -->
-    <div class="container-fluid jumbo bg-light">
+    <!-- MAPA -->
+    <div class="container py-5">
         <div class="row g-0">
-            <div class="col-12 text-center">
-                <h1 class="display-4 blue">¿Tienes un terreno y<br>no sabes que hacer?</h1>
-                <p class="h5">Proceso de 6 pasos para el desarrollo de ediﬁcios:</p>
+            <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.0569672968377!2d-103.4175158846572!3d20.70791118617306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af02a27cc34b%3A0x6807009333499094!2sAv.%20Empresarios%20135%2C%20Puerta%20de%20Hierro%2C%2045116%20Zapopan%2C%20Jal.!5e0!3m2!1ses!2smx!4v1657041233751!5m2!1ses!2smx" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>
     </div>
-    <!-- SECTION 3 -->
-    <div class="container">
-        <div class="row g-0 d-flex">
-           <div class="col-sm-12 col-md-6 bg-light align-self-center bg-light order-md-0 order-lg-0 order-last">
-                <img src="img/alexandr-hovhannisyan-RAheYv24zLo-unsplash.jpg" alt="" width="100%">
-            </div>
-            <div class="col-sm-12 col-md-6 compra order-md-1 order-lg-1 order-sm-first">
-                <ul class="li-bull">
-                  <li class="bull">Encontramos terrenos que cumplan con los lineamientos y uso de suelo adecuados para desarrollar.</li>
-                  <li class="bull">Se abre un ﬁdeicomiso en cual se aporta tierra mas capital para que todo sea seguro y transparente.</li>
-                  <li class="bull">Se arma el proyecto arquitectónico se empiezan a prevender unidades con nuestros inversionistas.</li>
-                  <li class="bull">Nuestros gestores tramitan permisos y licencias necesarias.</li>
-                  <li class="bull">Se construyen y venden las unidades restantes.</li>
-                  <li class="bull">Se realizar el reparto de rendimientos a nuestros inversionistas que aportaron terreno y/o capital.</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+      </div>
     <!-- FOOTER -->
 <div class="container-fluid g-0">
   <footer class="row g-0 d-flex justify-content-center">
@@ -166,5 +162,27 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()  
+    </script>
   </body>
 </html>
