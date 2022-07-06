@@ -73,7 +73,7 @@ footer i:hover{color: #875648;}
 .bull:after {position: absolute; top: 0; left: 0; content: counter(steps); counter-increment: steps; border-radius: 50%; display: inline-block; height: 36px; width: 36px; text-align: center; line-height: 28px; background: #875648; border: 3px solid #fff; color: #fff;}
 .bull:before {position: absolute; left: 18px; top: 0; content: ""; height: 100%; width: 0; border-left: 1px solid #875648;}
 .bull:last-of-type:before {border: none;}
-.inver{background-image: url(../img/inversiones2.jpeg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
+.inver{background-image: url(../img/B4.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
 
 
 @media (max-width: 850px) { 
