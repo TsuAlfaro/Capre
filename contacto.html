@@ -68,11 +68,11 @@
         <div class="row g-0">
           <h1 class="display-3 text-center mb-5">Escríbenos</h1>
             <div class="col-sm-12 col-md-7 p-3 mx-auto">
-            <form class="needs-validation" novalidate>
+            <form action="contactform.php" class="needs-validation" novalidate>
               <div class="row g-3">
                 <div class="col-sm-6">
                   <label for="validationDefault01" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="validationDefault01" placeholder="" value="" required>
+                  <input type="text" name="name" class="form-control" id="validationDefault01" placeholder="" value="" required>
                   <div class="invalid-feedback">
                     Favor de ingresar su nombre
                   </div>
@@ -80,7 +80,7 @@
 
                 <div class="col-sm-6">
                   <label for="lastName" class="form-label">Apellido</label>
-                  <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                  <input type="text" name="lastname" class="form-control" id="lastName" placeholder="" value="" required>
                   <div class="invalid-feedback">
                     Favor de ingresar su apellido
                   </div>
@@ -88,7 +88,7 @@
 
                 <div class="col-12">
                   <label for="email" class="form-label">Correo</label>
-                  <input type="email" class="form-control" id="email" placeholder="" required>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="" required>
                   <div class="invalid-feedback">
                     Favor de ingresar un correo válido
                   </div>
@@ -96,14 +96,14 @@
 
                 <div class="col-12 pb-5">
                   <label for="validationTextarea" class="form-label">Mensaje</label>
-                    <textarea class="form-control" id="validationTextarea" placeholder="" rows="4" required></textarea>
+                    <textarea class="form-control" name="message" id="validationTextarea" placeholder="" rows="4" required></textarea>
                     <div class="invalid-feedback">
                       Favor de ingresar su mensaje
                   </div>
                 </div>
                </div>
 
-                <button class="btn btn-primary bg-capre border-0" type="submit" >Enviar</button>
+                <button class="btn btn-primary bg-capre border-0" name="submit" type="submit" >Enviar</button>
             </form>
       </div>
         </div>
