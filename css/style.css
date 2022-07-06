@@ -6,7 +6,8 @@ a{text-decoration: none; color: inherit;}
 p{line-height: 1.5;}
 .blue{color:#253246; font-weight: 400;}
 .navbar{position: relative; z-index: 5;}
-.bg-capre{background-color: #253246;}    
+.bg-capre{background-color: #253246;}  
+.bg-light{background-color: #f0f1f2 !important;}
 .navbar-brand{padding: .3125rem;}
 .nav-item{padding: 15px; background-color: none!important; box-sizing: border-box;}
 .link-light{color:#fff!important;}
@@ -56,7 +57,8 @@ footer i:hover{color: #875648;}
 .img-nos{position: absolute; right: 10%; height: 70vh; width: 35%; top: 20%; background-image: url(../img/eduardo-alvarado-4KRJEfaqY-A-unsplash.jpg); background-position: center; background-size: cover;}
 .text-nos2{padding: 15% 20% 10% 10%; color: #fff;}
 .img-nos2{background-image: url(../img/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 60vh;}
-.inmo{background-image: url(../img/leohoho-dQyWiznMtho-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
+.inmo{background-image: url(../img/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
+.desa{background-image: url(../img/inmobiliaria1.jpeg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
 .compra{padding: 25% 10%; background-color: #fff;}
 .img-jumbo{background-image: url(../img/alexandr-hovhannisyan-OIVvwDIvmsk-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
 .img-flipp{position: absolute; left: 10%; height: 80vh; width: 35%; top: 10%; background-image: url(../img/grant-lemons-jTCLppdwSEc-unsplash.jpg); background-position: center; background-size: cover;}
@@ -64,13 +66,14 @@ footer i:hover{color: #875648;}
 .jumbo-brown{background-color: #875648; padding:10% 15%; color: #fff; margin-top: 5%;}
 .img-jumbo-flipp{background-image: url(../img/luke-van-zyl-koH7IVuwRLw-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
 .iconos{padding: 15% 5% 10% 5%; text-align: center;}
+.iconos .fa-solid{color:#253246;}
 
 .li-bull {max-width: 400px; margin: 0 auto; list-style-type: none; counter-reset: steps; margin: 0; padding: 0;}
 .bull {padding: 0 0 20px 50px; position: relative; margin: 0;}
 .bull:after {position: absolute; top: 0; left: 0; content: counter(steps); counter-increment: steps; border-radius: 50%; display: inline-block; height: 36px; width: 36px; text-align: center; line-height: 28px; background: #875648; border: 3px solid #fff; color: #fff;}
 .bull:before {position: absolute; left: 18px; top: 0; content: ""; height: 100%; width: 0; border-left: 1px solid #875648;}
 .bull:last-of-type:before {border: none;}
-.inver{background-image: url(../img/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
+.inver{background-image: url(../img/inversiones2.jpeg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
 
 
 @media (max-width: 850px) { 
