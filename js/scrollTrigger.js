@@ -20,6 +20,7 @@ animate.forEach(AnimText => {
 mov1.forEach(movder => {
   gsap.from(movder, { 
    x: -100,
+      opacity: 0,
     duration: 1,
     scrollTrigger: {
       trigger: movder,
