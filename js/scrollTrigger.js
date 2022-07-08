@@ -23,8 +23,8 @@ mov1.forEach(movder => {
     duration: 1,
     scrollTrigger: {
       trigger: movder,
-      start: "top bottom=0px",
-      scrub: false
+      start: "top bottom-=10px",
+      scrub: true
     }
   })
 });
