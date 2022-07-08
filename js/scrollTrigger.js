@@ -12,7 +12,7 @@ animate.forEach(AnimText => {
       start: "top center",
         end: "top 50px",
       scrub: true,
-      markers:true
+      markers:false
     }
   })
 });
@@ -24,7 +24,7 @@ mov1.forEach(movder => {
     scrollTrigger: {
       trigger: movder,
       start: "top bottom=0px",
-      scrub: true
+      scrub: false
     }
   })
 });
