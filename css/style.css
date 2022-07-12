@@ -34,11 +34,11 @@ p{line-height: 1.5;}
 .carousel-item{object-fit: cover; object-position: center;}
 
 .intro{padding:35% 10% 10% 10%; font-size: 1.1rem; box-sizing: border-box; background-color: #f8f9fa;}
-.introF1{height: 65vh; padding: 0%!important; background-image:url(../img/joel-filipe-RFDP7_80v5A-unsplash.jpg); background-size: cover; background-position: center;}
-.introF2{height: 65vh; padding: 0%!important; background-image:url(../img/pixasquare-4ojhpgKpS68-unsplash.jpg); background-size: cover; background-position: center;}
+.introF1{height: 65vh; padding: 0%!important; background-image:url(../img/intro1.jpg); background-size: cover; background-position: center;}
+.introF2{height: 65vh; padding: 0%!important; background-image:url(../img/intro2.jpg); background-size: cover; background-position: center;}
 
 .jumbo{padding: 10%;}
-.section2{height: 50vh; background-image: url(../img/brandon-griggs-wR11KBaB86U-unsplash.jpg);background-size: cover; background-position: center;}
+.section2{height: 50vh; background-image: url(../img/interiores.jpg);background-size: cover; background-position: center;}
 
 footer{color:white !important; background-color: #253246; padding:70px; z-index: 200;}
 footer .nav-item{padding: 4px;}
@@ -54,17 +54,17 @@ footer i:hover{color: #875648;}
 
 .nosotros{padding: 7% 5% 5% 5%; box-sizing: border-box;}
 .text-nos{padding: 20% 10% 10% 10%; box-sizing: border-box;}
-.img-nos{position: absolute; right: 10%; height: 70vh; width: 35%; top: 20%; background-image: url(../img/eduardo-alvarado-4KRJEfaqY-A-unsplash.jpg); background-position: center; background-size: cover;}
+.img-nos{position: absolute; right: 10%; height: 70vh; width: 35%; top: 20%; background-image: url(../img/nosotros.jpg); background-position: center; background-size: cover;}
 .text-nos2{padding: 15% 20% 10% 10%; color: #fff;}
 .img-nos2{background-image: url(../img/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 60vh;}
-.inmo{background-image: url(../img/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
+.inmo{background-image: url(../img/B_inmobiliaria.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
 .desa{background-image: url(../img/inmobiliaria1.jpeg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
 .compra{padding: 25% 10%; background-color: #fff;}
-.img-jumbo{background-image: url(../img/alexandr-hovhannisyan-OIVvwDIvmsk-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
-.img-flipp{position: absolute; left: 10%; height: 80vh; width: 35%; top: 10%; background-image: url(../img/grant-lemons-jTCLppdwSEc-unsplash.jpg); background-position: center; background-size: cover;}
+.img-jumbo{background-image: url(../img/inmobiliariaJ.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
+.img-flipp{position: absolute; left: 10%; height: 80vh; width: 35%; top: 10%; background-image: url(../img/flipping.jpg); background-position: center; background-size: cover;}
 .text-flipp{position: relative; left: 50%; padding: 20% 10% 10% 10%; box-sizing: border-box;}
 .jumbo-brown{background-color: #875648; padding:10% 15%; color: #fff; margin-top: 5%;}
-.img-jumbo-flipp{background-image: url(../img/luke-van-zyl-koH7IVuwRLw-unsplash.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
+.img-jumbo-flipp{background-image: url(../img/FlippingJumbo.jpg); background-position: center; background-size: cover; background-size: cover; height: 50vh;}
 .iconos{padding: 15% 5% 10% 5%; text-align: center;}
 .iconos .fa-solid{color:#253246;}
 
