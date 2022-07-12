@@ -10,8 +10,8 @@ animate.forEach(AnimText => {
     duration: 0.5,
     scrollTrigger: {
       trigger: AnimText,
-      start: "top center",
-        end: "top 50px",
+      start: "top bottom-=50px",
+      end: "top 50px",
       scrub: true,
       markers:false
     }
