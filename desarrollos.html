@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="CapreInmobiliaria" content="Inmobiliaria, Inversiones, Compra, Venta, Hipoteca, Flipping, Desarrollos inmobiliarios">
     <link rel="shortcut icon" type="image/x-icon" href="./capre.ico">
-
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +15,10 @@
     <script src="https://kit.fontawesome.com/e8c4847664.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <!-- CDN GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
    <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    
     <title>Capré</title>
   </head>
   <body>
@@ -65,15 +64,15 @@
     <!-- SECTION 1 -->
     <div class="container">
         <div class="row g-0 pt-5">
-           <div class="col-sm-12 col-md-7 desa" id="compra"></div>
-            <div class="col-sm-12 col-md-5">
+           <div class="col-sm-12 col-md-7 desa movIn" id="compra"></div>
+            <div class="col-sm-12 col-md-5 movIn">
                 <h1 class="display-3 text-center pt-5 line-h">DESARROLLOS</h1>
             </div>
         </div>
     </div>
     
     <!-- SECTION 2 -->
-    <div class="container">
+    <div class="container anim2">
         <div class="row g-0">
             <div class="col-sm-12 col-md-3 iconos">
                 <i class="fa-solid fa-money-bill-trend-up fa-4x pb-4"></i>
@@ -94,7 +93,7 @@
         </div>
     </div>
     <!-- JUMBO -->
-    <div class="container-fluid jumbo bg-light">
+    <div class="container-fluid jumbo bg-light movizq">
         <div class="row g-0">
             <div class="col-12 text-center">
                 <h1 class="display-4 blue">¿Tienes un terreno y<br>no sabes qué hacer?</h1>
@@ -105,10 +104,10 @@
     <!-- SECTION 3 -->
     <div class="container">
         <div class="row g-0 d-flex">
-           <div class="col-sm-12 col-md-6 bg-light align-self-center bg-light order-md-0 order-lg-0 order-last">
-                <img src="img/alexandr-hovhannisyan-RAheYv24zLo-unsplash.jpg" alt="" width="100%">
+           <div class="col-sm-12 col-md-6 bg-light align-self-center bg-light order-md-0 order-lg-0 order-last movder">
+                <img src="img/desarrollobullets.jpg" alt="" width="100%">
             </div>
-            <div class="col-sm-12 col-md-6 compra order-md-1 order-lg-1 order-sm-first">
+            <div class="col-sm-12 col-md-6 compra order-md-1 order-lg-1 order-sm-first movizq">
                 <ul class="li-bull">
                   <li class="bull">Encontramos terrenos que cumplan con los lineamientos y uso de suelo adecuados para desarrollar.</li>
                   <li class="bull">Se abre un ﬁdeicomiso en cual se aporta tierra mas capital para que todo sea seguro y transparente.</li>
@@ -123,8 +122,8 @@
     <!-- SECTION 4 -->
     <div class="container">
         <div class="row g-0 d-flex text-center">
-          <h1 class="display-4 py-5">Desarrollos</h1>
-           <div class="card-group">
+          <h1 class="display-4 py-5 AnimText">Desarrollos</h1>
+           <div class="card-group AnimText">
               <div class="card border-0 p-4 text-center">
                 <img src="img/CentralParkGuadalajaraJalisco.png" class="card-img-top" alt="CentralPark">
                 <div class="card-body">
@@ -147,7 +146,7 @@
                 </div>
               </div>
             </div>
-            <div class="card-group">   
+            <div class="card-group AnimText">   
                 <div class="card border-0 p-4 text-center">
                 <img src="img/BolongoVallartaJalisco.png" class="card-img-top" alt="Bolongo">
                 <div class="card-body">
@@ -218,5 +217,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
+    <!-- CDN  -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js" integrity="sha512-0xrMWUXzEAc+VY7k48pWd5YT6ig03p4KARKxs4Bqxb9atrcn2fV41fWs+YXTKb8lD2sbPAmZMjKENiyzM/Gagw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/scrollTrigger.js"></script>
+    
   </body>
 </html>
