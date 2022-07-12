@@ -1,5 +1,6 @@
 const animate = gsap.utils.toArray('.AnimText');
-const mov1 = gsap.utils.toArray('.movder');
+const movD = gsap.utils.toArray('.movder');
+const movI = gsap.utils.toArray('.movizq');
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -17,18 +18,34 @@ animate.forEach(AnimText => {
   })
 });
 
-mov1.forEach(movder => {
+movD.forEach(movder => {
   gsap.from(movder, { 
    x: -100,
       opacity: 0,
     duration: 1,
     scrollTrigger: {
       trigger: movder,
-      start: "top bottom-=10px",
+      start: "top bottom-=50px",
+      end: "top 50px",
       scrub: true
     }
   })
 });
+
+movI.forEach(movizq => {
+  gsap.from(movizq, { 
+    x: 100,
+    opacity: 0,
+    duration: 1,
+    scrollTrigger: {
+      trigger: movizq,
+      start: "top bottom-=50px",
+      end: "top 50px",
+      scrub: true
+    }
+  })
+});
+
 
 gsap.from(".introF1", {
   scrollTrigger:{ 
